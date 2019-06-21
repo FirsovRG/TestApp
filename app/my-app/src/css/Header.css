@@ -1,0 +1,30 @@
+.header {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    display: flex;
+
+}
+.header img {
+    max-width: 5em;
+    max-height: 5em;
+    border-radius: 50%;
+    align-self: center;
+}
+img.menuIcon {
+    max-width: 3em;
+    max-height: 3em;
+    align-self: center;
+    margin: .5em;
+    border-radius: 30%;
+    background-color: transparent;
+    
+    cursor: pointer;
+    padding: .5em;
+}
+img.menuIcon:hover{
+    background-color: rgb(236, 236, 236);
+   
+}
+
+.header h1 {
+padding-left: 1em;
+}

@@ -1,0 +1,13 @@
+.time {
+    margin-top: 1em;
+    font-size: 2em;
+}
+.timer{
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    display: flex;
+    padding: .5em;
+    width: 40%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,39 @@
+.content {
+    background-color:transparent;
+    display: block;
+}
+.registrationForm {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+input {
+    text-align: left;
+    padding-left: .5em;
+    margin: .5em;
+    line-height: 1.5em;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px;
+    font-size: 1.5em;
+}
+
+input:focus{
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+button {
+    text-transform: uppercase;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.errorSpan {
+    color: rgb(180, 1, 1);
+    font-weight: bold;
+    font-size: .8em;
+}
